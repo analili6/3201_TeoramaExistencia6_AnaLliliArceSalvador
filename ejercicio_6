@@ -1,0 +1,21 @@
+% Título: Teorama de existencis
+% Descripción: Script para graficar una funcion de la forma f (x) = 1/sqrt(x))
+% Autor: Ana Lilia Arce Salvador (analili6) al5853542@gmail.com
+% Fecha: 20210506
+% Sesión: 3
+
+% limpiar variables
+ clear
+ % f (x) = 1/sqrt(x)
+% Rango
+ x = 0: 0.1: 3; 
+% Valor de la función 
+ y=1./sqrt(x)
+% Dibujar x, y
+ plot(x, y);
+% Titulo
+ title("1./sqrt(x)");
+% Etiqueta para x
+ xlabel ("x");
+% Etiqueta para y
+ ylabel ("y");
